@@ -7,14 +7,24 @@
  </head>
  <body>
   <div>
-     <input type="text" name="text" id="string" value="">
-  <h1></h1>
+
+     <p id="out">Введите номер → <input type="number" name="text" id="string"  min="100" max="99999"> 
+  <input type="button" name="enter" 
+  value="Изменить" id = "myBtn" > </p>
+
+
   
- 
-  <input type="button" name="enter" value="enter" id = "myBtn"> 
-  <h1></h1>
-  <textarea id="text" cols=36 rows="10"></textarea>
-  <textarea id="text1" cols=36 rows="10"></textarea>
+
+  <textarea id="text" cols=36 rows="10" placeholder="Вывод готового адреса"></textarea>
+
+  <textarea id="text1" cols=36 rows="10" placeholder="Вывод номера"></textarea>
+
+  <p></p>
+
+  <button onclick="copyTo()" id="but1">Copy text</button>
+
+  <button onclick="copyToo()" id="but2">Copy text</button>
+
   <script src="app.js"></script>
 </div>
 </body>

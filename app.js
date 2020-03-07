@@ -50,3 +50,19 @@ inputElem.addEventListener("keyup", function(event) {
       document.getElementById("myBtn").click();
   }
 });
+function copyTo() {
+  
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); 
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}
+function copyToo() {
+  
+  var copyText = document.getElementById("text1");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}

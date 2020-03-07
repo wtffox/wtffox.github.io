@@ -1,8 +1,69 @@
-p {color: brown; 
-  text-align: center; 
-  text-shadow: darkorange; 
-  font-family: fantasy; 
-  font-size: xx-large; }
-  h1 {
-   
-  }
+body {
+  background: rgb(195,51,34);
+background: linear-gradient(-89deg, rgb(241, 190, 184) 0%, rgb(250, 215, 140) 100%);
+}
+#out {
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 80px;
+  
+  
+}
+#myBtn {
+  background-color: rgb(18, 155, 173); /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+input[type=number] {
+  font-weight: bold  ;
+  color: black;
+  border-color: #3cbc8d;
+  border-radius: 3px;
+  width: 100px;
+  height: 19px;
+
+}
+textarea {
+  width:  auto;
+  height: auto;
+  resize: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  background: transparent;
+}
+
+#but1 {
+  background-color: rgb(18, 155, 173); /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-left: 105px;
+  
+}
+#but2 {
+  background-color: rgb(18, 155, 173); /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-left: 205px;
+  margin-top: 5px;
+}
+
