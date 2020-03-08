@@ -1,10 +1,11 @@
+
 body {
   background-image: url("wheat.png");
 }
 #out {
   font-size: 18pt;
   font-weight: bold;
-  margin-left: 80px;
+  
   color: #c8e6ff;
   text-shadow: 2px 0px rgb(0, 0, 0);;
   
@@ -32,14 +33,25 @@ input[type=number] {
   background-color: #8d98a1;
 
 }
-textarea {
+#text1 {
   width:  auto;
   height: auto;
   resize: none;
   border-radius: 3px;
-  margin-left: 10px;
+  margin-left: 15px;
   background: transparent;
   color: #c8e6ff;
+  font-size: 12pt;
+}
+
+#text {
+  width:  auto;
+  height: auto;
+  resize: auto;
+  border-radius: 3px;
+  background: transparent;
+  color: #c8e6ff;
+  font-size: 12pt;
 }
 
 #but1 {
@@ -52,7 +64,8 @@ textarea {
   display: inline-block;
   font-size: 15px;
   border-radius: 3px;
-  margin-left: 105px;
+  
+  
   
 }
 #but2 {
@@ -65,7 +78,7 @@ textarea {
   display: inline-block;
   font-size: 15px;
   border-radius: 3px;
-  margin-left: 205px;
-  margin-top: 5px;
+  margin-left: 250px;
+  
 }
 

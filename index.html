@@ -8,13 +8,13 @@
  <body>
   
 
-<div>
-     <p id="out">Введите номер → <input type="number" name="text" id="string"  min="100" max="99999"> 
+<div class="upInput">
+     <p id="out" align = "center">Введите номер → <input type="number" name="text" id="string"  min="100" max="99999"> 
   <input type="button" name="enter" 
-  value="Изменить" id = "myBtn" > </p>
+  value="Изменить" id = "myBtn"  > </p>
 </div>
 
-  
+  <div class="outBut" align = "center">
 
   <textarea id="text" cols=36 rows="10" placeholder="Вывод готового адреса"></textarea>
 
@@ -22,9 +22,10 @@
 
   <p></p>
 
-  <button onclick="copyTo()" id="but1">Copy text</button>
+  <button onclick="copyTo()" id="but1">Копировать</button>
 
-  <button onclick="copyToo()" id="but2">Copy text</button>
+  <button onclick="copyToo()" id="but2">Копировать</button>
+</div>
 
 
   <script src="app.js"></script>
