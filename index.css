@@ -1,16 +1,16 @@
 body {
-  background: rgb(195,51,34);
-background: linear-gradient(-89deg, rgb(241, 190, 184) 0%, rgb(250, 215, 140) 100%);
+  background-image: url("wheat.png");
 }
 #out {
-  font-size: larger;
+  font-size: 18pt;
   font-weight: bold;
   margin-left: 80px;
-  
+  color: #c8e6ff;
+  text-shadow: 2px 0px rgb(0, 0, 0);;
   
 }
 #myBtn {
-  background-color: rgb(18, 155, 173); /* Green */
+  background-color: #3B3035; 
   border: none;
   color: white;
   padding: 5px 10px;
@@ -25,10 +25,11 @@ background: linear-gradient(-89deg, rgb(241, 190, 184) 0%, rgb(250, 215, 140) 10
 input[type=number] {
   font-weight: bold  ;
   color: black;
-  border-color: #3cbc8d;
+  border-color: #3B3035;
   border-radius: 3px;
   width: 100px;
   height: 19px;
+  background-color: #8d98a1;
 
 }
 textarea {
@@ -38,10 +39,11 @@ textarea {
   border-radius: 3px;
   margin-left: 10px;
   background: transparent;
+  color: #c8e6ff;
 }
 
 #but1 {
-  background-color: rgb(18, 155, 173); /* Green */
+  background-color: #3B3035;  
   border: none;
   color: white;
   padding: 5px 10px;
@@ -54,7 +56,7 @@ textarea {
   
 }
 #but2 {
-  background-color: rgb(18, 155, 173); /* Green */
+  background-color: #3B3035;
   border: none;
   color: white;
   padding: 5px 10px;
