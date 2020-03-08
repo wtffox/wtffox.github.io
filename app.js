@@ -8,6 +8,9 @@ var outputPatternK = 'k@i.com';
 
 var inp = document.querySelector("[type='button']");
 inp.addEventListener('click', add)
+//очистка input
+document.getElementById("myBtn").onclick = function(e) { document.getElementById("string").value = "";}
+
 function add(){
   let value = inputElem.value;
   checkUsInp(value);
@@ -17,8 +20,9 @@ function add(){
   outputTo(outputElementS, formValue)
   outputTo(outputElementK, formatedValue)
   var mass = outputElementK.value;
-  var newMass = mass.replace(/,/g, ";");
-   outputElementK.value = newMass;
+  var newMass = mass.replace(/,/g, "; ");
+  outputElementK.value = newMass;
+  
 };
 function toFormat(element){
   formatedValue.push(element.concat(outputPatternS))
