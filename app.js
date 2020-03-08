@@ -71,9 +71,3 @@ function copyToo() {
   //alert("Copied the text: " + copyText.value);
 }
 
-function mass(obj) {
-  var mass = outputElementK.value;
-  var newMass = mass.replace(/,/g, ";");
-   outputElementK.value = newMass;
-  //console.log(value);
-}
