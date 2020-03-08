@@ -16,6 +16,9 @@ function add(){
   toFormat(value);
   outputTo(outputElementS, formValue)
   outputTo(outputElementK, formatedValue)
+  var mass = outputElementK.value;
+  var newMass = mass.replace(/,/g, ";");
+   outputElementK.value = newMass;
 };
 function toFormat(element){
   formatedValue.push(element.concat(outputPatternS))
@@ -41,6 +44,7 @@ function toCurrectLength(value){
 }
 
 function outputTo(outputToId, value){
+  
   outputToId.value = value;
 }
 // нажатие на Enter
@@ -56,7 +60,7 @@ function copyTo() {
   copyText.select();
   copyText.setSelectionRange(0, 99999); 
   document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
+  //alert("Copied the text: " + copyText.value);
 }
 function copyToo() {
   
@@ -64,5 +68,12 @@ function copyToo() {
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   document.execCommand("copy");
-  alert("Copied the text: " + copyText.value);
+  //alert("Copied the text: " + copyText.value);
+}
+
+function mass(obj) {
+  var mass = outputElementK.value;
+  var newMass = mass.replace(/,/g, ";");
+   outputElementK.value = newMass;
+  //console.log(value);
 }
